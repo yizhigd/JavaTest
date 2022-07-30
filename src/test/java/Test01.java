@@ -17,10 +17,10 @@ public class Test01 {
     }
     @Test
     public void testg() throws Exception {
-        driver.get("http://localhost:81/general/ERP/LOGIN/");
+        driver.get("http://www.baidu.com");
 
-        a.sendKeys(By.xpath("//*[@id=\"username\"]"), "admin");
-        a.click(By.xpath("//*[@id=\"loginForm\"]/table/tbody/tr/td[3]/table[4]/tbody/tr[1]/td[1]/input"));
+        a.sendKeys(By.id("kw"), "python");
+        a.click(By.id("su"));
 
     }
 
