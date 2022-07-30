@@ -22,6 +22,7 @@ public class Test01 {
         a.sendKeys(By.id("kw"), "python");
         a.click(By.id("su"));
 
+
     }
 
     @AfterTest
